@@ -6,15 +6,29 @@ body {
     margin: 0; /* keep this */
 }
 
+div {
+    float: left;
+    width: 45%;
+    padding: 20px;
+      -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         box-sizing: border-box;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+
 article {
-  background:#fff;
+  background:##FFD5AE;
   color: #000;
-  padding: 20px 40px;
+  float: right;
+  width: 45%;
+  padding: 20px;
     -webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 		   box-sizing: border-box;
-  width: 600px;
-  margin: 0 auto;
+  margin-top: 40px;
+  margin-right: 50px;
 }
 
 section {
@@ -23,6 +37,7 @@ section {
 	   -moz-box-sizing: border-box;
 		   box-sizing: border-box;
 }
+
 
 header {
   width: 100%;
@@ -33,8 +48,10 @@ header {
 }
 h1 {
   float: left;
-  padding-left: 10px; 
+  padding: 10px;
+  margin: 20px;
 }
+
 nav {
   float: right;
   margin: 0;
@@ -60,13 +77,20 @@ nav li {
   clear: both;
 }
 
+
 h2 {
-  text-align: center;
-  padding: 20px;
-  margin: 0;
+  text-align: left;
+  padding: 10px;
+  margin-left: 50px;
 }
 
-footer, section > p {
+div > p {
+  text-align: left;
+  padding: 10px;
+  margin-left: 60px;
+}
+
+footer {
   text-align: center;
 }
 
@@ -77,14 +101,21 @@ img {
 
 #cougar {
       background: #FFD5AE; /* pale peach */
+      overflow: auto;
+      width: 100%;
+
 }
 
 #lion {
       background:#FFBD82; /* peach */
+      overflow: auto;
+      width: 100%;
 }
 
 #tiger {
       background: #B26219; /* cinnamon */
+      overflow: auto;
+      width: 100%;
 }
 
 
